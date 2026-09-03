@@ -22,9 +22,15 @@ No. $n^{1.01}$ is a polynomial function vs. $log^2n$ which is logaritmic. Any po
 
   - 1d
 
+Yes. $\Omega$ notation means asymptotic lower bound, and $f(x) \in \Omega(g(x))$ means $f(x)$ grows faster or equally as $g(x)$. Any positive polynomial power of n will always grow faster than any polylogarithmic function. Therefore $n^{1.01} \in \Omega({log^2n})$
+
   - 1e
 
+No. Because $n^{1/2}$, ${1/2}$ is a positive number, any positive polynomial outgrows any polylogarithmic function. Therefore $\sqrt{n} \notin O({log^3n})$
+
   - 1f
+
+Yes. Similar to the answer before, $n^{1/2}$ outgrows $log^3n$. Therefore $\sqrt{n} \in \Omega({log^3n})$
 
   - 1g
 
