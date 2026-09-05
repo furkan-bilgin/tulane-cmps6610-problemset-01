@@ -12,7 +12,7 @@ def foo(a: int, b: int) -> int:
         return a
     else:
         x, y = min(a, b), max(a, b)
-        return foo(y, y % x)
+        return foo(x, y % x)
 
 
 def longest_run(mylist, key):
@@ -48,4 +48,3 @@ class Result:
 def longest_run_recursive(mylist, key):
     ### TODO
     pass
-
